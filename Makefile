@@ -3,16 +3,16 @@
 all: build test lint
 
 build:
-	cd src && go build -o ../simple-otp-tui main.go
-	@echo "Build complete: ./simple-otp-tui"
+	cd src && go build -o ../charm-otp main.go
+	@echo "Build complete: ./charm-otp"
 
 test:
 	cd src && go test -v ./...
 	@echo "Tests passed"
 
 run: build
-	@echo "Run with: ./simple-otp-tui (enter testpass for NewDatabase.enc)"
-	./simple-otp-tui
+	@echo "Run with: ./charm-otp (enter testpass for NewDatabase.enc)"
+	./charm-otp
 
 lint: vet fmt
 
@@ -27,7 +27,7 @@ check-deps:
 	@echo "Dependencies checked"
 
 clean:
-	rm -f simple-otp-tui
+	rm -f charm-otp
 	cd src && go clean -i
 	@echo "Cleaned"
 

@@ -1,4 +1,4 @@
-module simple-otp-tui
+module charm-otp
 
 go 1.24.0
 

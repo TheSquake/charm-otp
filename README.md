@@ -1,4 +1,4 @@
-# simple-otp-tui
+# charm-otp
 
 A simple, keyboard-driven TUI for managing and viewing OTP (TOTP) codes from an encrypted database. Built with [Charmbracelet](https://charmbracelet.com) tools.
 
@@ -23,8 +23,8 @@ A simple, keyboard-driven TUI for managing and viewing OTP (TOTP) codes from an 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/simple-otp-tui.git
-   cd simple-otp-tui
+   git clone https://github.com/yourusername/charm-otp.git
+   cd charm-otp
    ```
 
 2. Build the binary:
@@ -40,7 +40,7 @@ A simple, keyboard-driven TUI for managing and viewing OTP (TOTP) codes from an 
 
 4. Run:
    ```bash
-   ./simple-otp-tui
+   ./charm-otp
    ```
 
 ## Usage

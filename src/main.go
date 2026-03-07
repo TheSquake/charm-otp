@@ -934,7 +934,7 @@ func main() {
 	} else {
 		log.SetOutput(io.Discard)
 	}
-	log.Println("=== simple-otp-tui starting at", time.Now(), "===")
+	log.Println("=== charm-otp starting at", time.Now(), "===")
 
 	p := tea.NewProgram(initialModel(), tea.WithAltScreen())
 	if _, err := p.Run(); err != nil {
