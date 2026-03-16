@@ -1,7 +1,6 @@
 # charm-otp
 
-A simple, keyboard-driven TUI for managing and viewing OTP (TOTP) codes from an encrypted database. Built with [Charmbracelet](https://charmbracelet.com) tools.
-
+A simple, keyboard-driven TUI for managing and viewing OTP (TOTP) codes from an encrypted database. Built with [Charmbracelet](https://share.google/TcI5lznpK50mDAswY) tools
 ## Features
 
 - Password-protected access to OTPClient `.enc` databases
