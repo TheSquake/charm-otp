@@ -22,7 +22,7 @@ A simple, keyboard-driven TUI for managing and viewing OTP (TOTP) codes from an 
 - Go 1.24+ (for building)
 
 ## Installation
-Before installation you need ~otpclient~ & ~wl-clipboard~
+Before installation you need `otpclient` & `wl-clipboard`
 **Binaries can be found in the releases page.**
 
 
