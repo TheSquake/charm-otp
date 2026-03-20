@@ -23,6 +23,10 @@ A simple, keyboard-driven TUI for managing and viewing OTP (TOTP) codes from an 
 
 ## Installation
 
+**Binaries can be found in the releases page.**
+
+
+Alternatively you can:
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/charm-otp.git
