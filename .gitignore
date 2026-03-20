@@ -1,0 +1,4 @@
+dist/
+charm-otp
+src/NewDatabase.enc
+src/otp-seed.json
